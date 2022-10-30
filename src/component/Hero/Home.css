@@ -4,12 +4,15 @@
 .hero h3 {
   font-weight: 100;
   letter-spacing: 2px;
+  font-size: medium;
   color: #ffffff;
 }
 .hero h1 {
+  margin-top: 20px;
   font-size: 60px;
   font-weight: bold;
   color: #878e99;
+  line-height: 60px;
 }
 
 .hero h1 span {
@@ -27,63 +30,89 @@
   color: #878e99;
   font-size: 18px;
   line-height: 30px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .hero_btn {
-  margin-top: 20%;
+  margin-top: 10%;
+  width: 100%;
 }
 .hero_btn h4 {
   font-weight: 500;
   letter-spacing: 2px;
-  color: #43474b;
+  color: #878e99;
   font-size: 15px;
-  margin: 30px 0 30px 0;
+  margin: 30px 0 0px 15px;
 }
 .hero_btn button {
-  margin-right: 30px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 .hero_btn i {
-  font-size: 20px;
+  font-size: 28px;
 }
-
+.hero .d_flex{
+  justify-content: space-around;
+}
+.top_hero{
+  display: flex;
+  margin-bottom: 0;
+  margin-top: 40px;
+}
+.hero .col_1{
+  min-width: 100px;
+}
+.hero .btn_shadow{
+  margin-top: 30px;
+}
 .hero_btn button img {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
 }
 .hero .left {
-  margin-right: 10%;
+  min-width: 50%;
+  margin-top: 40px;
+}
+.img-container{
+  width: 50%;
+}
+.img-container img{
+  max-width: 100%;
 }
 .hero .right {
-  width: 40%;
+  max-width: 40%;
   position: relative;
+  margin-top: 40px;
 }
 .hero .right_img {
-  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  /* background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
-  border-radius: 10px;
-  height: 580px;
-  width: 510px;
-  margin-top: 20%;
+  border-radius: 10px; */
+
+  max-width: 510px;
+}
+.img-container{
+  width: 100%;
 }
 .hero .right_img img {
-  position: absolute;
-  top: 0;
-  right: 10%;
-  width: 510px;
+  max-width: 610px;
 }
 @media (max-width: 768px) {
   .hero .right,
   .hero .left {
     width: 100%;
-    margin-left: 20px;
-  }
 
-  .hero .f_flex {
+  }
+  .img-container{
+    margin-top: 60px;
+  }
+  .hero .col_1{
+    text-align: center;
+  }
+  .hero .top_hero {
     flex-direction: column;
-    flex-direction: column-reverse;
   }
   .hero .right_img {
-    width: 100%;
+    max-width: 100%;
     height: 54vh;
   }
 }

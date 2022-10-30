@@ -12,7 +12,7 @@ body {
   background-color: #17181a;
 }
 .container {
-  max-width: 95%;
+  width: 90%;
   margin: auto;
 }
 .d_flex {
@@ -47,7 +47,7 @@ button {
   border-radius: 6px;
   transition: 0.3s all ease;
   cursor: pointer;
-  color: #000;
+  color: #878e99;
   transition: 0.5s;
 }
 .btn_shadow {
@@ -56,7 +56,7 @@ button {
 }
 .btn_shadow:hover {
   background: #28d3d3;
-  color: white;
+  color: #17181a;
   transform: translateY(-10px);
 }
 .box_shodow {

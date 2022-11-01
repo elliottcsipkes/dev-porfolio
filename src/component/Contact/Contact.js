@@ -32,6 +32,13 @@ const Contact = () => {
 	Here is my message I want to say : ${data.message}. 
 	`
     );
+    setData({
+      fullname: "",
+      phone: "",
+      email: "",
+      subject: "",
+      message: "",
+    });
   };
   return (
     <>
@@ -93,9 +100,7 @@ const Contact = () => {
                     onChange={InputEvent}
                   ></textarea>
                 </div>
-                <button className="btn_shadow">
-                  SEND MESSAGE <i className="fa fa-long-arrow-right"></i>
-                </button>
+                <button className="btn_shadow">SEND MESSAGE</button>
               </form>
             </div>
           </div>

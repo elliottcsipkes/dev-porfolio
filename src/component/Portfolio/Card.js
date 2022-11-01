@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaTimes } from "react-icons/fa";
 
 const Card = (props) => {
   const [modal, setModal] = useState(false);
@@ -59,7 +60,7 @@ const Card = (props) => {
                 </button>
               </div>
               <button className="close-modal btn_shadow" onClick={toggleModal}>
-                <i class="fas fa-times"></i>
+                <FaTimes />
               </button>
             </div>
           </div>

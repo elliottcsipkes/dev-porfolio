@@ -85,20 +85,20 @@ body.active-modal {
 }
 
 .overlay {
-  background-color: #ecf0f3;
+  background-color: #17181a;
 }
 .modal-content {
   position: absolute;
   top: 12%;
   left: 8%;
   line-height: 1.4;
-  background: #f0f3f5;
+  background: linear-gradient(145deg, #3c3e41, #242527);
   padding: 14px 28px;
   border-radius: 3px;
   max-width: 85%;
   min-width: 60%;
   z-index: 9999;
-  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  box-shadow: 4px 4px 8px #000000, -4px -4px 8px #0f0f0f;
   padding: 50px;
   border-radius: 10px;
 }
@@ -106,14 +106,19 @@ body.active-modal {
 .modal-text {
   padding: 0 100px 0 50px;
 }
+.modal .right span{
+  color: #28d3d3;
+}
 .modal-text h1 {
   margin: 20px 0 20px 0;
   font-size: 30px;
+  color: white;
 }
 .modal-text p {
   font-size: 17px;
   margin-bottom: 20px;
   line-height: 25px;
+  color: #878e99;
 }
 .modal-text button {
   margin-right: 20px;

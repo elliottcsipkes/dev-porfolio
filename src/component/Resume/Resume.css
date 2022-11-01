@@ -3,7 +3,7 @@
 }
 
 .Resume .heading h1 {
-  font-size: 40px;
+  font-size: 55px;
 }
 .Resume .content {
   max-width: 100%;
@@ -46,7 +46,11 @@
 }
 .Resume .left {
   position: relative;
-  margin-right: 55px;
+  margin-right: 20px;
+}
+.Resume .right {
+  position: relative;
+  margin-left: 20px;
 }
 .heading h2 {
   margin: auto;
@@ -57,6 +61,24 @@
 .heading .gray {
   margin-top: -30px;
 }
+.download {
+  margin-top: 10px;
+  padding: 12px 18px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #878e99;
+  transition: 0.5s;
+  background: linear-gradient(145deg, #3c3e41, #242527);
+  box-shadow: 4px 4px 8px #000000, -4px -4px 8px #0f0f0f;
+}
+
+.download:hover {
+  background: #28d3d3;
+  color: #17181a;
+  transform: translateY(-10px);
+}
+
 @media (max-width: 768px) {
   .Resume .d_flex {
     flex-direction: column;

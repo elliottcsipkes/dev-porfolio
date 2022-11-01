@@ -2,6 +2,9 @@
   position: relative;
   padding-top: 10px;
 }
+.Portfolio .heading h1{
+  font-size: 55px;
+}
 .Portfolio .box {
   border-radius: 10px;
   position: relative;

@@ -11,6 +11,7 @@ const Resume = () => {
           <div className="heading text-left">
             <h4>EDUCATION AND JOB EXPERIENCE</h4>
             <h1>Resume</h1>
+            <button className="download">PDF DOWNLOAD</button>
           </div>
 
           <div className="content-section d_flex">

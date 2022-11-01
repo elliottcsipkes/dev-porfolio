@@ -8,15 +8,15 @@ const Resume = () => {
     <>
       <section className="Resume" id="resume">
         <div className="container top">
-          <div className="heading text-center">
-            <h1>My Resume</h1>
+          <div className="heading text-left">
+            <h4>EDUCATION AND JOB EXPERIENCE</h4>
+            <h1>Resume</h1>
           </div>
 
-          <div className="content-section mtop d_flex">
+          <div className="content-section d_flex">
             <div className="left">
               <div className="heading">
-                <h4>2007-2010</h4>
-                <h1>Education Quality</h1>
+                <h2 className="gray">Education</h2>
               </div>
 
               <div className="content">
@@ -49,10 +49,9 @@ const Resume = () => {
                 </div>*/}
               </div>
             </div>
-            <div className="left">
+            <div className="right">
               <div className="heading">
-                <h4>2007-2010</h4>
-                <h1>Job Experience</h1>
+                <h2 className="gray">Job Experience</h2>
               </div>
 
               <div className="content">

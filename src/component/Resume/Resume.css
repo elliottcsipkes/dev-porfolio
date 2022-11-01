@@ -1,18 +1,21 @@
+.Resume{
+  padding-top: 90px;
+}
+
 .Resume .heading h1 {
   font-size: 40px;
 }
 .Resume .content {
-  max-width: 85%;
-  margin: auto;
+  max-width: 100%;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-between;
 }
 .Resume .box {
   padding: 40px;
 }
-.Resume hr {
-  margin: 30px 0 30px 0;
-  border: 1px solid #e3e9ed;
-  background-color: #e3e9ed;
-}
+
 .Resume .rate .btn_shadow {
   color: #28d3d3;
   padding: 15px 30px;
@@ -43,41 +46,16 @@
 }
 .Resume .left {
   position: relative;
+  margin-right: 55px;
 }
-.Resume .left::after {
-  content: "";
-  position: absolute;
-  top: 16%;
-  left: 0;
-  height: 118vh;
-  width: 5px;
-  background: #d9dee2;
-  z-index: -2;
+.heading h2 {
+  margin: auto;
 }
-.Resume .box::after {
-  content: "";
-  position: absolute;
-  top: 13%;
-  left: -8%;
-  height: 5px;
-  width: 50px;
-  background: #d9dee2;
+.Resume .gray {
+  color: #878e99;
 }
-.Resume .box::before {
-  content: "";
-  position: absolute;
-  top: 11%;
-  left: -10%;
-  height: 10px;
-  width: 10px;
-  background: #fff;
-  border: 5px solid #d9dee2;
-  border-radius: 50%;
-  z-index: 5;
-  transition: 0.5s;
-}
-.Resume .box:hover.box:before {
-  background: #28d3d3;
+.heading .gray {
+  margin-top: -30px;
 }
 @media (max-width: 768px) {
   .Resume .d_flex {

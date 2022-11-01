@@ -1,5 +1,6 @@
 .Portfolio {
   position: relative;
+  padding-top: 10px;
 }
 .Portfolio .box {
   border-radius: 10px;

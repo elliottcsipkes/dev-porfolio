@@ -45,7 +45,7 @@ const Contact = () => {
           <div className="content d_flex">
             <div className="right box_shodow">
               <form onSubmit={formSubmit}>
-                <div className="f_flex">
+                <div className="f_flex input_row">
                   <div className="input row">
                     <span>YOUR NAME</span>
                     <input

@@ -38,8 +38,12 @@
   box-shadow: none;
   color: white;
 }
+
+.exp:hover{
+  cursor: default;
+}
 .Resume .box:hover p {
-  color: white;
+  color: black;
 }
 .Resume .content-section {
   position: relative;
@@ -77,6 +81,11 @@
   background: #28d3d3;
   color: #17181a;
   transform: translateY(-10px);
+}
+
+.gpa{
+  margin-top: 15px;
+  color: #28d3d3;
 }
 
 @media (max-width: 768px) {

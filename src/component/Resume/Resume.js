@@ -31,8 +31,8 @@ const Resume = () => {
                         key={id}
                         title={val.title}
                         year={val.year}
-                        rate={val.rate}
                         desc={val.desc}
+                        gpa={val.gpa}
                       />
                     );
                   }
@@ -55,7 +55,7 @@ const Resume = () => {
             </div>
             <div className="right">
               <div className="heading">
-                <h2 className="gray">Job Experience</h2>
+                <h2 className="gray">Recent Experience</h2>
               </div>
 
               <div className="content">

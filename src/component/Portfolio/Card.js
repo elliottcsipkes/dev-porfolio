@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaTimes } from "react-icons/fa";
+import { IoMdArrowRoundForward } from "react-icons/io";
 
 const Card = (props) => {
   const [modal, setModal] = useState(false);
@@ -39,7 +40,7 @@ const Card = (props) => {
               <img src={props.image} alt="" />
             </div>
             <div className="modal-text right">
-              <span>Featured - Design</span>
+              <span>{props.category}</span>
               <h1>{props.title}</h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -52,12 +53,14 @@ const Card = (props) => {
                 culpa quas iusto hic minus!
               </p>
               <div className="button f_flex mtop">
-                <button className="btn_shadow">
-                  LIKE THIS <i class="far fa-thumbs-up"></i>
-                </button>
-                <button className="btn_shadow">
-                  VIEW PROJECT<i class="fas fa-chevron-right"></i>
-                </button>
+                <a href={props.github} target="_blank">
+                  <button className="btn_shadow">GITHUB REPO</button>
+                </a>
+                <a href={props.demo} target="_blank">
+                  <button className="btn_shadow">
+                    PROJECT DEMO <IoMdArrowRoundForward />
+                  </button>
+                </a>
               </div>
               <button className="close-modal btn_shadow" onClick={toggleModal}>
                 <FaTimes />

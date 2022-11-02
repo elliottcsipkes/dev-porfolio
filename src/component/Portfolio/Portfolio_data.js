@@ -2,15 +2,16 @@ const Portfolio_data = [
   {
     id: 1,
     category: "DEVELOPMENT",
-    title: "Budget App ",
+    title: "Budget App",
     image: "./image/portfolio-01.jpg",
     demo: "https://budget-appdemos.netlify.app/",
   },
   {
     id: 2,
     category: "APPLICATION",
-    title: "Mobile app landing design & maintain",
+    title: "CryptoSearch",
     image: "./image/portfolio-02.jpg",
+    demo: "https://cryptosearch-demo.netlify.app/",
   },
   {
     id: 3,

@@ -24,14 +24,14 @@ const Contact = () => {
 
   const formSubmit = (event) => {
     event.preventDefault();
-    alert(
-      `My name is ${data.fullname}. 
-	My phone number is ${data.phone}. 
-	My email address is ${data.email}. 
-	My Subject on  ${data.subject}. 
-	Here is my message I want to say : ${data.message}. 
-	`
-    );
+    //   alert(
+    //     `My name is ${data.fullname}.
+    // My phone number is ${data.phone}.
+    // My email address is ${data.email}.
+    // My Subject on  ${data.subject}.
+    // Here is my message I want to say : ${data.message}.
+    // `
+    //   );
     setData({
       fullname: "",
       phone: "",
@@ -51,7 +51,11 @@ const Contact = () => {
 
           <div className="content d_flex">
             <div className="right box_shodow">
-              <form onSubmit={formSubmit}>
+              <form
+                onSubmit={formSubmit}
+                action="https://formsubmit.co/elliottcsipkes@gmail.com"
+                method="POST"
+              >
                 <div className="f_flex input_row">
                   <div className="input row">
                     <span>YOUR NAME</span>
@@ -100,7 +104,9 @@ const Contact = () => {
                     onChange={InputEvent}
                   ></textarea>
                 </div>
-                <button className="btn_shadow">SEND MESSAGE</button>
+                <button type="submit" className="btn_shadow">
+                  SEND MESSAGE
+                </button>
               </form>
             </div>
           </div>

@@ -1,10 +1,7 @@
-header {
-  height: 10vh;
-  line-height: 10vh;
-}
-header .container {
-  padding-top: 15px;
 
+header .container {
+  display: flex;
+  align-items: center;
 }
 header ul li {
   margin-left: 30px;
@@ -27,11 +24,14 @@ header ul li a:hover {
   height: fit-content;
   color: #28d3d3;
 }
+.toggle{
+  display: none;
+}
 .open {
   display: none;
 }
 .header.active {
-  height: 12vh;
+  min-height: 24px;
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -41,6 +41,12 @@ header ul li a:hover {
   transition: 0.5s;
 }
 @media (max-width: 768px) {
+  .toggle{
+    display: unset;
+    color: #878e99;
+    background: none;
+    font-size: 30px;
+  }
   header ul {
     padding-top: 30px;
   }
@@ -54,7 +60,7 @@ header ul li a:hover {
     transition: all 0.5s ease-in-out;
     width: 60%;
     height: 100vh;
-    background-color: white;
+    background-color: #17181a;
     z-index: 888;
   }
   header ul li {

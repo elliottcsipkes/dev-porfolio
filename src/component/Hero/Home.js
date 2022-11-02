@@ -39,10 +39,10 @@ const Home = () => {
               </h2>
 
               <p>
-                I use animation as a third dimension by which to simplify
-                experiences and kuiding thro each and every interaction. I’m not
-                adding motion just to spruce things up, but doing it in ways
-                that.
+                I'm a self-taught front-end developer with a passion for
+                learning new technologies. Combining coding with my background
+                in product management gives me a keen sense and unique
+                perspective for understanding and solving user problems.
               </p>
               <a href="#portfolio">
                 <button className="btn_shadow to_port_btn">

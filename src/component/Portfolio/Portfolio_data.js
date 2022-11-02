@@ -18,6 +18,7 @@ const Portfolio_data = [
     category: "PHOTOSHOP",
     title: "Logo design creativity & Application ",
     image: "./image/portfolio-03.jpg",
+    demo: "https://pokemon-pokedex-demo.netlify.app/"
   },
   {
     id: 4,

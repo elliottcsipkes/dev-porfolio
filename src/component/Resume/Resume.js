@@ -2,6 +2,7 @@ import React from "react";
 import "./Resume.css";
 import ResumeApi from "./ResumeApi";
 import Card from "./Card";
+import { Link } from "react-router-dom";
 
 const Resume = () => {
   return (
@@ -11,7 +12,9 @@ const Resume = () => {
           <div className="heading text-left">
             <h4>EDUCATION AND JOB EXPERIENCE</h4>
             <h1>Resume</h1>
-            <button className="download">PDF DOWNLOAD</button>
+            <a href="/files/ElliottCsipkes-Resume.pdf" download>
+              <button className="download">PDF DOWNLOAD</button>
+            </a>
           </div>
 
           <div className="content-section d_flex">

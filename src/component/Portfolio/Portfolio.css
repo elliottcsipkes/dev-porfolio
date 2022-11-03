@@ -1,6 +1,6 @@
 .Portfolio {
   position: relative;
-  padding-top: 10px;
+  padding-top: 30px;
 }
 .Portfolio .heading h1{
   font-size: 55px;
@@ -17,6 +17,7 @@
 .Portfolio .img {
   height: 300px;
   overflow: hidden;
+  border-radius: 10px;
   transition: 0.5s;
 }
 .Portfolio img {
@@ -105,6 +106,9 @@ body.active-modal {
 
 .modal-text {
   padding: 0 100px 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .modal .right span{
   color: #28d3d3;
@@ -123,6 +127,9 @@ body.active-modal {
 .modal-text button {
   margin-right: 20px;
   color: #28d3d3;
+}
+.modal-btn{
+  margin-top: auto;
 }
 .modal-text button i {
   margin-left: 10px;

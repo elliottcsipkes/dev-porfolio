@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./header.css";
-import logo from "../pic/logo.png";
+import logo from "../pic/eclogo.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Header = () => {
@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <>
       <header className="header">
-        <div className="container navbar d_flex">
+        <div className="container navbar">
           <div className="logo">
             <img src={logo} alt="" />
           </div>
@@ -24,6 +24,12 @@ const Header = () => {
               className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"}
               onClick={() => setMobile(false)}
             >
+              <button
+                className="toggle-close toggle"
+                onClick={() => setMobile(!Mobile)}
+              >
+                <FaTimes />
+              </button>
               {/*<ul className='link f_flex uppercase {Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}'>*/}
               <li>
                 <a href="#home">home</a>

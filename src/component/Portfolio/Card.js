@@ -43,16 +43,7 @@ const Card = (props) => {
               <div>
                 <span>{props.category}</span>
                 <h1>{props.title}</h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Cupiditate distinctio assumenda explicabo veniam temporibus
-                  eligendi.
-                </p>
-                <p>
-                  Consectetur adipisicing elit. Cupiditate distinctio assumenda.
-                  dolorum alias suscipit rerum maiores aliquam earum odit, nihil
-                  culpa quas iusto hic minus!
-                </p>
+                <p>{props.desc}</p>
               </div>
               <div className="button f_flex modal-btn">
                 <a href={props.github} target="_blank">

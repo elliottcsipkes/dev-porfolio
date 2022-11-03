@@ -65,9 +65,30 @@
   margin-top: 30px;
   margin-bottom: 20px;
 }
+.hero .tech{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
 .hero_btn button img {
   width: 30px;
   height: 30px;
+}
+.tech {
+  padding: 18px 25px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: default;
+  color: #878e99;
+  transition: 0.5s;
+}
+.tech {
+  background: linear-gradient(145deg, #3c3e41, #242527);
+  box-shadow: 4px 4px 8px #000000, -4px -4px 8px #0f0f0f;
+}
+.tech:hover {
+  background: #28d3d3;
+  color: #17181a;
+  transform: translateY(-10px);
 }
 .hero .left {
   min-width: 50%;

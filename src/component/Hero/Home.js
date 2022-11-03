@@ -89,19 +89,19 @@ const Home = () => {
             </div>
             <div className="col_1">
               <h4>TECHNICAL SKILLS</h4>
-              <button className="btn_shadow">
+              <button className="tech">
                 <img src={HTML5} alt="" />
               </button>
-              <button className="btn_shadow">
+              <button className="tech">
                 <img src={CSS3} alt="" />
               </button>
-              <button className="btn_shadow">
+              <button className="tech">
                 <img src={js} alt="" />
               </button>
-              <button className="btn_shadow">
+              <button className="tech">
                 <img src={Reactjs} alt="" />
               </button>
-              <button className="btn_shadow">
+              <button className="tech">
                 <img src={bootstrap} alt="" />
               </button>
             </div>

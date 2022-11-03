@@ -2,7 +2,6 @@ import React from "react";
 import "./Resume.css";
 import ResumeApi from "./ResumeApi";
 import Card from "./Card";
-import { Link } from "react-router-dom";
 
 const Resume = () => {
   return (

@@ -5,10 +5,12 @@ header .container {
 }
 .navbar{
   justify-content: space-between;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
-
+.logo{
+  display: flex;
+}
 .logo img{
   height: 42px;
 }
@@ -83,9 +85,12 @@ header ul li a:hover {
   }
   header ul li {
     width: 100%;
+    text-align: center;
     transition: all 0.5s ease-in-out;
     text-transform: uppercase;
     line-height: 70px;
+    margin-left: 0;
+    margin-top: 20px;
   }
   header .link {
     display: none;

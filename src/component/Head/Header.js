@@ -46,7 +46,7 @@ const Header = () => {
             </ul>
 
             <button className="toggle" onClick={() => setMobile(!Mobile)}>
-              {Mobile ? <FaTimes /> : <FaBars />}
+              {Mobile ? null : <FaBars />}
             </button>
           </div>
         </div>

@@ -48,11 +48,9 @@ const Home = () => {
                 <button className="btn_shadow to_port_btn">
                   VIEW PORTFOLIO
                 </button>
-                <a href="#resume">
-                  <button className="btn_shadow to_port_btn">
-                    VIEW RESUME
-                  </button>
-                </a>
+              </a>
+              <a href="#resume">
+                <button className="btn_shadow to_port_btn">VIEW RESUME</button>
               </a>
             </div>
             <div className="img-container">

@@ -4,7 +4,8 @@ const ResumeApi = [
     category: "education",
     year: "Liberty University, 2022",
     title: "Master of Business Administration",
-    desc: "Graduated with distinction",
+    awards1: "Graduated with distinction",
+    awards2: null,
     gpa: "4.00/4.00",
   },
   {
@@ -12,7 +13,8 @@ const ResumeApi = [
     category: "education",
     year: "Oral Roberts University, 2020",
     title: "Bachelor of Science in Business Administration | Marketing",
-    desc: "Most Outstanding Marketing Student, President's Honor Roll",
+    awards1: "Most Outstanding Marketing Student",
+    awards2: "President's Honor Roll",
     gpa: "3.96/4.00",
   },
   {
@@ -20,24 +22,36 @@ const ResumeApi = [
     category: "experience",
     year: "Canary & Coal (July 2022 - Oct 2022)",
     title: "Graduate Marketing Intern",
-    desc: "",
-    rate: "4.70/5 ",
+    desc1:
+      "- Shadowing the agency CEO to learn and oversee administrative procedures",
+    desc2:
+      "- Spearheading client marketing campaigns through the production of visual assets",
+    desc3:
+      "- Uniting with various departments to create cohesive branding and materials for clients",
   },
   {
     id: 4,
     category: "experience",
     year: "TRAINER (Sept 2019 - Jan 2021) ",
     title: "Software Product Manager",
-    desc: " ",
-    rate: "4.95/5 ",
+    desc1:
+      "- Leading cross-functional teams, including UI/UX design and software engineering, to develop a robust SaaS product",
+    desc2:
+      "- Interviewing customers to create user stories and collaborating with software engineers to create and modify a product roadmap",
+    desc3:
+      "- Assisting in presenting product offerings to venture capital firms and investors to gain capital for startup operations",
   },
   {
     id: 5,
     category: "experience",
     year: "Oral Roberts University Student Association (Aug 2019 - May 2020)",
     title: "Social Media Coordinator",
-    desc: "",
-    rate: "5.00/5 ",
+    desc1:
+      "- Planning social media posts to engage with current and prospective students",
+    desc2:
+      "- Collaborating with photographers and designers to create aesthetic pictures and graphics",
+    desc3:
+      "- Combining efforts with other student leaders to enhance student experience",
   },
 ];
 

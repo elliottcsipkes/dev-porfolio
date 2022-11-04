@@ -41,8 +41,8 @@ const Home = () => {
               <p>
                 I'm a self-taught front-end developer with a passion for
                 learning new technologies. Combining coding with my background
-                in product management gives me a keen sense and unique
-                perspective for understanding and solving user problems.
+                in marketing gives me a unique perspective and distinct
+                advantage in both understanding and solving user problems.
               </p>
               <a href="#portfolio">
                 <button className="btn_shadow to_port_btn">

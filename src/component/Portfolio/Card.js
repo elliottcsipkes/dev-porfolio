@@ -25,9 +25,6 @@ const Card = (props) => {
         </div>
         <div className="title">
           <h2 onClick={toggleModal}>{props.title}</h2>
-          <a href="#popup" className="arrow" onClick={toggleModal}>
-            <i class="fas fa-arrow-right"></i>
-          </a>
         </div>
       </div>
 
@@ -46,10 +43,10 @@ const Card = (props) => {
                 <p>{props.desc}</p>
               </div>
               <div className="button f_flex modal-btn">
-                <a href={props.github} target="_blank">
+                <a href={props.github} target="_blank" rel="noreferrer">
                   <button className="btn_shadow">GITHUB REPO</button>
                 </a>
-                <a href={props.demo} target="_blank">
+                <a href={props.demo} target="_blank" rel="noreferrer">
                   <button className="btn_shadow">
                     PROJECT DEMO <IoMdArrowRoundForward />
                   </button>

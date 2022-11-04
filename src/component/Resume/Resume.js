@@ -30,7 +30,8 @@ const Resume = () => {
                         key={id}
                         title={val.title}
                         year={val.year}
-                        desc={val.desc}
+                        awards1={val.awards1}
+                        awards2={val.awards2}
                         gpa={val.gpa}
                       />
                     );
@@ -65,8 +66,9 @@ const Resume = () => {
                         key={index}
                         title={val.title}
                         year={val.year}
-                        rate={val.rate}
-                        desc={val.desc}
+                        desc1={val.desc1}
+                        desc2={val.desc2}
+                        desc3={val.desc3}
                       />
                     );
                   }

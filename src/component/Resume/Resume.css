@@ -8,7 +8,6 @@
 .Resume .content {
   max-width: 100%;
   display: flex;
-
   flex-direction: column;
   justify-content: space-between;
 }
@@ -16,14 +15,7 @@
   padding: 40px;
 }
 
-.Resume .rate .btn_shadow {
-  color: #28d3d3;
-  padding: 15px 30px;
-  font-weight: bold;
-  transition: 0.5s;
-}
 .Resume p {
-  font-size: 18px;
   transition: 0.5s;
 }
 .Resume .box {
@@ -60,11 +52,18 @@
   margin: auto;
 }
 .Resume .gray {
+  font-size: 20px;
+  margin-top: 20px;
   color: #878e99;
 }
 .heading .gray {
   margin-top: -30px;
 }
+.job{
+  color: #878e99;
+  font-size: 14px;
+}
+
 .download {
   margin-top: 10px;
   padding: 12px 18px;

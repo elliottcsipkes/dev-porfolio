@@ -14,7 +14,7 @@ const Footer = () => {
           </button>
         </a>
         <div className="conatiner text-center top">
-          <p>© 2022 by Elliott Csipkes. All rights reserved.</p>
+          <p>© 2023 by Elliott Csipkes. All rights reserved.</p>
         </div>
       </footer>
     </>

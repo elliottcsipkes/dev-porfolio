@@ -25,8 +25,8 @@ const Home = () => {
                   <Typewriter
                     words={[
                       " Front-end Developer.",
-                      " React Enthusiast.",
-                      " Supersonic Legend.",
+                      " Product Manager.",
+                      " Marketing Manager.",
                     ]}
                     loop
                     cursor

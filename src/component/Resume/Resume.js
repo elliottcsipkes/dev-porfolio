@@ -11,7 +11,7 @@ const Resume = () => {
           <div className="heading text-left">
             <h4>EDUCATION AND JOB EXPERIENCE</h4>
             <h1>Resume</h1>
-            <a href="/files/ElliottCsipkesResume.pdf" download>
+            <a href="/files/ElliottCsipkes_CurrentResume.pdf" download>
               <button className="download">PDF DOWNLOAD</button>
             </a>
           </div>

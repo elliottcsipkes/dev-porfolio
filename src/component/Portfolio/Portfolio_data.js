@@ -4,7 +4,7 @@ const Portfolio_data = [
     category: "MARKETING AGENCY WEBSITE",
     title:
       "Beyond Limits - Website Created For Beyond Limits Social Media Marketing Agency",
-    image: "/images/beyondlimits.png",
+    image: "/images/beyondlimits1.png",
     demo: "https://beyondlimitsagency.netlify.app/",
     github: "https://github.com/elliottcsipkes/beyond-limits-agency-site",
     desc: "This multipage website contains information on the Beyond Limits SMMA and how it helps its clients. The site was designed entirely by me and was then implemented through the use of Next.js alongside TailwindCSS for complete desktop and mobile responsiveness. On the website one will find many links, most of which are directed to the contact page through calls to action. This contact page allows leads to submit information about their needs from the Beyond Limits team",

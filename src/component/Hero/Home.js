@@ -39,7 +39,7 @@ const Home = () => {
               </h2>
 
               <p>
-                I'm a self-taught front-end developer with a passion for
+                I'm a self-taught JavaScript developer with a passion for
                 learning new technologies. Combining coding with my background
                 in marketing gives me a unique perspective and distinct
                 advantage in both understanding and solving user problems.

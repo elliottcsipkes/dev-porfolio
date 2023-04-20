@@ -7,7 +7,7 @@ const Portfolio_data = [
     image: "/images/beyondlimits2.png",
     demo: "https://beyondlimitsagency.netlify.app/",
     github: "https://github.com/elliottcsipkes/beyond-limits-agency-site",
-    desc: "This multipage website contains information on the Beyond Limits SMMA and how it helps its clients. The site was uniquely designed and then implemented through the use of Next.js and TailwindCSS for complete responsiveness. On the website one will find many links, most of which are directed to the contact page through calls to action. This contact page allows leads to submit information about their needs from the Beyond Limits team.",
+    desc: "This multipage website contains information on the Beyond Limits SMMA and how it helps its clients. The site was uniquely designed and then implemented through the use of Next.js and TailwindCSS for complete responsiveness. On the website, one will find many links, most of which are directed to the contact page through calls to action. This contact page allows leads to submit information about their needs to the Beyond Limits team.",
   },
   {
     id: 2,

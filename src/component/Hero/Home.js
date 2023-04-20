@@ -4,7 +4,7 @@ import HTML5 from "../pic/HTML5.png";
 import CSS3 from "../pic/CSS3.png";
 import js from "../pic/js.png";
 import Reactjs from "../pic/Reactjs.png";
-import bootstrap from "../pic/bootstrap.png";
+import tailwindcss from "../pic/tailwindcss.png";
 import Handcoding from "../pic/Handcoding.svg";
 import { Typewriter } from "react-simple-typewriter";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
@@ -24,9 +24,9 @@ const Home = () => {
                 <span>
                   <Typewriter
                     words={[
-                      " Front-end Developer.",
+                      " JavaScript Developer.",
                       " Product Manager.",
-                      " Marketing Manager.",
+                      " React Enthusiast.",
                     ]}
                     loop
                     cursor
@@ -100,7 +100,7 @@ const Home = () => {
                 <img src={Reactjs} alt="" />
               </button>
               <button className="tech">
-                <img src={bootstrap} alt="" />
+                <img src={tailwindcss} alt="" />
               </button>
             </div>
           </div>

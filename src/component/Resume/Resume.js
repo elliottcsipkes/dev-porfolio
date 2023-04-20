@@ -36,6 +36,7 @@ const Resume = () => {
                       />
                     );
                   }
+                  return;
                 })}
 
                 {/*<div className='box btn_shadow'>
@@ -72,6 +73,7 @@ const Resume = () => {
                       />
                     );
                   }
+                  return;
                 })}
               </div>
             </div>

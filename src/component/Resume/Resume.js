@@ -35,8 +35,9 @@ const Resume = () => {
                         gpa={val.gpa}
                       />
                     );
+                  } else {
+                    return;
                   }
-                  return;
                 })}
 
                 {/*<div className='box btn_shadow'>
@@ -72,8 +73,9 @@ const Resume = () => {
                         desc3={val.desc3}
                       />
                     );
+                  } else {
+                    return;
                   }
-                  return;
                 })}
               </div>
             </div>
